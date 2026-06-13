@@ -1,0 +1,28 @@
+INDICES OF THOSE THAT DIDNT GET TO RATING
+num failed ratings: 26
+Name of Default facility: Communities in School (ISY)  -Heart of Texas
+Name of Default facility: Volunteers of America - San Antonio
+Name of Default facility: SA Youth
+Name of Default facility: George Gervin Youth Center
+Name of Default facility: A New Entry Inc. - Secondary Office
+Name of Default facility: Workforce Solutions - Rural Capital Area
+Name of Default facility: WorkForce Solutions - Rural Capital Area
+Name of Default facility: Workforce Solutions - Humble
+Name of Default facility: Volunteers of America - Houston
+Name of Default facility: Volunteers of America - Fort Worth
+Name of Default facility: SER - Jobs For Progress
+Name of Default facility: Center for Employment Training
+Name of Default facility: Workforce Solutions Greater Dallas - Redbird
+Name of Default facility: International District Workforce Center
+Name of Default facility: Back on My Feet - Dallas
+Name of Default facility: Workforce Solutions Golden Crescent
+Name of Default facility: Workforce Solutions - Middle Rio Grande
+Name of Default facility: Workforce Solutions - Middle Rio Grande
+Name of Default facility: CECT Workforce Solutions, LLC - Duchess Street
+Name of Default facility: CECT Workforce Solutions, LLC - Corona Ave
+Name of Default facility: WorkForce Solutions for the Heart of Texas - Freestone County
+Name of Default facility: Workforce Solutions - South Plains Brownfield
+Name of Default facility: Volunteers of America - Austin
+Name of Default facility: Center Point Inc.
+Name of Default facility: Back on My Feet - Austin
+Name of Default facility: A New Entry Inc. - Main Office

@@ -1,0 +1,7 @@
+/keys.env
+/Scripts/*
+/Lib/*
+/Include/*
+/__pycache__/*
+__pycache__/*
+.vercel

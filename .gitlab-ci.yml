@@ -1,0 +1,35 @@
+image: node:latest
+
+stages: 
+  - test
+  - build
+
+variables:
+  POSTGRES_USER: $DB_USERNAME    
+  POSTGRES_PASSWORD: $DB_PASSWORD
+
+services:
+  - postgres:latest
+
+unit_tests:
+  stage: test
+  image: python:3.9  
+  script:
+    - cd backend
+    - pip install -r requirements.txt
+    - export PYTHONPATH=./ 
+    - python -m unittest discover -s . -p 'tests.py'
+
+frontend_unit_tests:
+  stage: test
+  script:
+    - cd frontend
+    - npm ci
+    - npm run test
+
+build:
+  stage: build
+  script: 
+  - cd frontend
+  - npm ci 
+  - npm run build 

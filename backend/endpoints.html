@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Python: module endpoints</title>
+</head><body>
+
+<table class="heading">
+<tr class="heading-text decor">
+<td class="title">&nbsp;<br><strong class="title">endpoints</strong></td>
+<td class="extra"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cbalds%5Conedrive%5Cdocuments%5Cswe%5Ccs373-group-03%5Cbackend%5Cendpoints.py">c:\users\balds\onedrive\documents\swe\cs373-group-03\backend\endpoints.py</a></td></tr></table>
+    <p></p>
+<p>
+<table class="section">
+<tr class="decor pkg-content-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Modules</strong></td></tr>
+    
+<tr><td class="decor pkg-content-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><table><tr><td class="multicolumn"><a href="json.html">json</a><br>
+</td><td class="multicolumn"><a href="math.html">math</a><br>
+</td><td class="multicolumn"></td><td class="multicolumn"></td></tr></table></td></tr></table><p>
+<table class="section">
+<tr class="decor functions-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Functions</strong></td></tr>
+    
+<tr><td class="decor functions-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><dl><dt><a name="-counties"><strong>counties</strong></a>()</dt><dd><span class="code">Endpoint&nbsp;for&nbsp;rehab.&nbsp;Given&nbsp;an&nbsp;id,&nbsp;return&nbsp;a&nbsp;rehab&nbsp;center&nbsp;and&nbsp;its&nbsp;related&nbsp;<br>
+instances&nbsp;based&nbsp;on&nbsp;latitude&nbsp;and&nbsp;longitude.<br>
+&nbsp;<br>
+:param&nbsp;id:&nbsp;Query&nbsp;parameter,&nbsp;specifies&nbsp;the&nbsp;page&nbsp;to&nbsp;get&nbsp;instances&nbsp;from.<br>
+:type&nbsp;id:&nbsp;int<br>
+&nbsp;<br>
+:return:&nbsp;return&nbsp;all&nbsp;counties&nbsp;if&nbsp;query&nbsp;parameters&nbsp;(starting&nbsp;with&nbsp;?)&nbsp;isn't&nbsp;<br>
+specified,&nbsp;otherwise,&nbsp;returns&nbsp;a&nbsp;page&nbsp;full&nbsp;of&nbsp;county&nbsp;instances.<br>
+:rtype:&nbsp;JSON.</span></dd></dl>
+ <dl><dt><a name="-county"><strong>county</strong></a>(id)</dt><dd><span class="code">Endpoint&nbsp;for&nbsp;county.&nbsp;Given&nbsp;an&nbsp;id,&nbsp;return&nbsp;a&nbsp;county&nbsp;and&nbsp;its&nbsp;related&nbsp;<br>
+instances&nbsp;based&nbsp;on&nbsp;latitude&nbsp;and&nbsp;longitude.<br>
+&nbsp;<br>
+:param&nbsp;id:&nbsp;ID&nbsp;of&nbsp;county&nbsp;instance&nbsp;to&nbsp;get,&nbsp;along&nbsp;with&nbsp;its&nbsp;related<br>
+instances.<br>
+:type&nbsp;id:&nbsp;str<br>
+&nbsp;<br>
+:return:&nbsp;JSON&nbsp;of&nbsp;county&nbsp;and&nbsp;its&nbsp;related&nbsp;instances.<br>
+:rtype:&nbsp;JSON</span></dd></dl>
+ <dl><dt><a name="-generateDistanceString"><strong>generateDistanceString</strong></a>(tableName: str, lat: float, long: float, limit: int) -&gt; str</dt><dd><span class="code">Return&nbsp;SQL&nbsp;String&nbsp;that&nbsp;returns&nbsp;limit&nbsp;number&nbsp;of&nbsp;instances&nbsp;from&nbsp;tableName<br>
+based&nbsp;on&nbsp;closeness&nbsp;to&nbsp;given&nbsp;lat&nbsp;and&nbsp;long.<br>
+&nbsp;<br>
+:param&nbsp;tableName:&nbsp;Table&nbsp;to&nbsp;grab&nbsp;related&nbsp;instances<br>
+:type&nbsp;tableName:&nbsp;str<br>
+&nbsp;<br>
+:param&nbsp;lat:&nbsp;latitude&nbsp;to&nbsp;find&nbsp;closest&nbsp;instances<br>
+:type&nbsp;lat:&nbsp;float<br>
+&nbsp;<br>
+:param&nbsp;long:&nbsp;longitude&nbsp;to&nbsp;find&nbsp;closest&nbsp;instances<br>
+:type&nbsp;long:&nbsp;float<br>
+&nbsp;<br>
+:return:&nbsp;SQL&nbsp;Select&nbsp;to&nbsp;grab&nbsp;LIMIT&nbsp;instances&nbsp;from&nbsp;tableName&nbsp;with<br>
+closest&nbsp;latittude&nbsp;and&nbsp;longitude<br>
+:rtype:&nbsp;str</span></dd></dl>
+ <dl><dt><a name="-getPage"><strong>getPage</strong></a>(parsedJson: dict, pageNumber: int) -&gt; dict[str]</dt><dd><span class="code">Given&nbsp;all&nbsp;instances&nbsp;of&nbsp;a&nbsp;category,&nbsp;and&nbsp;a&nbsp;pageNumber,&nbsp;return&nbsp;a&nbsp;dictionary<br>
+describing&nbsp;the&nbsp;total&nbsp;number&nbsp;of&nbsp;pages,&nbsp;total&nbsp;number&nbsp;of&nbsp;instances,&nbsp;the<br>
+current&nbsp;page&nbsp;number,&nbsp;and&nbsp;RESULTS_PER_PAGE&nbsp;number&nbsp;of&nbsp;instances&nbsp;in&nbsp;result&nbsp;field.<br>
+&nbsp;<br>
+:param&nbsp;parsedJson:&nbsp;dictionary&nbsp;of&nbsp;all&nbsp;instances<br>
+:type&nbsp;currentCategory:&nbsp;str<br>
+&nbsp;<br>
+:param&nbsp;pageNumber:&nbsp;the&nbsp;pageNumber,&nbsp;gives&nbsp;number&nbsp;of&nbsp;instances&nbsp;for&nbsp;api&nbsp;user<br>
+:type&nbsp;pageNumber:&nbsp;int<br>
+&nbsp;<br>
+:return:&nbsp;dictionary&nbsp;with&nbsp;total&nbsp;number&nbsp;of&nbsp;instances&nbsp;in&nbsp;'total',&nbsp;total&nbsp;number<br>
+of&nbsp;pages&nbsp;in&nbsp;'totalPages',&nbsp;and&nbsp;the&nbsp;truncated&nbsp;number&nbsp;of&nbsp;instances&nbsp;in&nbsp;'results'<br>
+:rtype:&nbsp;dict</span></dd></dl>
+ <dl><dt><a name="-getRelatedInstances"><strong>getRelatedInstances</strong></a>(latitude: float, longitude: float, currentCategory: str)</dt><dd><span class="code">Given&nbsp;an&nbsp;instance's&nbsp;category,&nbsp;latittude,&nbsp;longitude,&nbsp;return&nbsp;a&nbsp;list&nbsp;of<br>
+instances&nbsp;in&nbsp;other&nbsp;categories&nbsp;related&nbsp;to&nbsp;current&nbsp;instance.<br>
+&nbsp;<br>
+:param&nbsp;latitude:&nbsp;latitude&nbsp;of&nbsp;current&nbsp;instance<br>
+:type&nbsp;latitude:&nbsp;float<br>
+&nbsp;<br>
+:param&nbsp;longitude:&nbsp;longitude&nbsp;of&nbsp;current&nbsp;instance<br>
+:type&nbsp;longitude:&nbsp;float<br>
+&nbsp;<br>
+:param&nbsp;currentCategory:&nbsp;category&nbsp;of&nbsp;current&nbsp;instance<br>
+:type&nbsp;currentCategory:&nbsp;str<br>
+&nbsp;<br>
+:return:&nbsp;list&nbsp;of&nbsp;dictionaries,&nbsp;representing&nbsp;related&nbsp;instances<br>
+:rtype:&nbsp;list[dict]</span></dd></dl>
+ <dl><dt><a name="-home"><strong>home</strong></a>()</dt><dd><span class="code">Says&nbsp;hello.<br>
+&nbsp;<br>
+:return:&nbsp;Returns&nbsp;a&nbsp;greeting.<br>
+:rtype:&nbsp;str</span></dd></dl>
+ <dl><dt><a name="-reentries"><strong>reentries</strong></a>()</dt><dd><span class="code">Endpoint&nbsp;for&nbsp;reentries.&nbsp;Return&nbsp;all&nbsp;reentry&nbsp;centers&nbsp;and&nbsp;its&nbsp;related&nbsp;<br>
+instances&nbsp;based&nbsp;on&nbsp;latitude&nbsp;and&nbsp;longitude.<br>
+&nbsp;<br>
+:param&nbsp;page:&nbsp;URL&nbsp;Query&nbsp;parameter,&nbsp;specifies&nbsp;which&nbsp;page&nbsp;of&nbsp;instances<br>
+to&nbsp;get.<br>
+:type&nbsp;page:&nbsp;int<br>
+&nbsp;<br>
+:return:<br>
+:rtype:</span></dd></dl>
+ <dl><dt><a name="-reentry"><strong>reentry</strong></a>(id)</dt><dd><span class="code">Endpoint&nbsp;for&nbsp;reentry.&nbsp;Given&nbsp;an&nbsp;id,&nbsp;return&nbsp;a&nbsp;reentry&nbsp;center&nbsp;and&nbsp;its&nbsp;related&nbsp;<br>
+instances&nbsp;based&nbsp;on&nbsp;latitude&nbsp;and&nbsp;longitude.<br>
+&nbsp;<br>
+:param&nbsp;id:&nbsp;Id&nbsp;of&nbsp;reentry&nbsp;center&nbsp;to&nbsp;get.<br>
+:type&nbsp;id:&nbsp;str<br>
+&nbsp;<br>
+:return:&nbsp;JSON&nbsp;of&nbsp;the&nbsp;reentry&nbsp;center&nbsp;and&nbsp;related&nbsp;instances.<br>
+:rtype:&nbsp;JSON.</span></dd></dl>
+ <dl><dt><a name="-rehab"><strong>rehab</strong></a>(id)</dt><dd><span class="code">Endpoint&nbsp;for&nbsp;rehab.&nbsp;Given&nbsp;an&nbsp;id,&nbsp;return&nbsp;a&nbsp;rehab&nbsp;center&nbsp;and&nbsp;its&nbsp;related&nbsp;<br>
+instances&nbsp;based&nbsp;on&nbsp;latitude&nbsp;and&nbsp;longitude.<br>
+&nbsp;<br>
+:param&nbsp;id:&nbsp;Given&nbsp;an&nbsp;id,&nbsp;return&nbsp;rehab&nbsp;center&nbsp;and&nbsp;related&nbsp;instances.<br>
+:type&nbsp;id:&nbsp;Given&nbsp;as&nbsp;string,&nbsp;should&nbsp;always&nbsp;be&nbsp;an&nbsp;positive,&nbsp;greater&nbsp;than&nbsp;zero&nbsp;<br>
+integer.<br>
+&nbsp;<br>
+:return:&nbsp;Rehab&nbsp;center&nbsp;and&nbsp;related&nbsp;instances&nbsp;as&nbsp;JSON.<br>
+:rtype:&nbsp;JSON.</span></dd></dl>
+ <dl><dt><a name="-rehabs"><strong>rehabs</strong></a>()</dt><dd><span class="code">Endpoint&nbsp;for&nbsp;rehabs.&nbsp;Returns&nbsp;all&nbsp;rehab&nbsp;centers&nbsp;and&nbsp;its&nbsp;related&nbsp;<br>
+instances&nbsp;based&nbsp;on&nbsp;latitude&nbsp;and&nbsp;longitude&nbsp;in&nbsp;JSON.<br>
+&nbsp;<br>
+:param&nbsp;page:&nbsp;URL&nbsp;Query&nbsp;parameter,&nbsp;specifies&nbsp;which&nbsp;page&nbsp;of&nbsp;instances<br>
+to&nbsp;get.<br>
+:type&nbsp;page:&nbsp;Given&nbsp;as&nbsp;str,&nbsp;should&nbsp;always&nbsp;be&nbsp;a&nbsp;postive&nbsp;integer.<br>
+&nbsp;<br>
+:return:&nbsp;All&nbsp;rehab&nbsp;centers.<br>
+:rtype:&nbsp;JSON</span></dd></dl>
+ <dl><dt><a name="-tableToJSON"><strong>tableToJSON</strong></a>(records, colNames)</dt><dd><span class="code">Given&nbsp;an&nbsp;iterable&nbsp;type&nbsp;of&nbsp;records,&nbsp;and&nbsp;colNames,&nbsp;create&nbsp;a&nbsp;list&nbsp;of&nbsp;dictionaries<br>
+where&nbsp;each&nbsp;field&nbsp;is&nbsp;specified&nbsp;by&nbsp;a&nbsp;column&nbsp;name&nbsp;from&nbsp;colNames&nbsp;and&nbsp;the&nbsp;value<br>
+coming&nbsp;from&nbsp;records.&nbsp;<br>
+&nbsp;<br>
+:param&nbsp;records:&nbsp;iterable&nbsp;of&nbsp;an&nbsp;iterable&nbsp;contaienr,&nbsp;storing&nbsp;an&nbsp;iterable<br>
+of&nbsp;a&nbsp;record,&nbsp;each&nbsp;record&nbsp;contains&nbsp;data&nbsp;corresponding&nbsp;to&nbsp;colNames<br>
+:type&nbsp;records:&nbsp;iterable<br>
+&nbsp;<br>
+:param&nbsp;colNames:&nbsp;iterable,&nbsp;iterations&nbsp;gives&nbsp;column&nbsp;names<br>
+:type&nbsp;colNames:&nbsp;iterable<br>
+&nbsp;<br>
+:return:&nbsp;a&nbsp;list&nbsp;of&nbsp;dictionaries&nbsp;with&nbsp;fields&nbsp;being&nbsp;column&nbsp;names,&nbsp;and&nbsp;values<br>
+coming&nbsp;from&nbsp;records<br>
+:rtype:&nbsp;list[dict]</span></dd></dl>
+ <dl><dt><a name="-tableToList"><strong>tableToList</strong></a>(records, colNames)</dt><dd><span class="code">Given&nbsp;an&nbsp;iterable&nbsp;type&nbsp;of&nbsp;records,&nbsp;and&nbsp;colNames,&nbsp;create&nbsp;a&nbsp;list&nbsp;of&nbsp;dictionaries<br>
+where&nbsp;each&nbsp;field&nbsp;is&nbsp;specified&nbsp;by&nbsp;a&nbsp;column&nbsp;name&nbsp;from&nbsp;colNames&nbsp;and&nbsp;the&nbsp;value<br>
+coming&nbsp;from&nbsp;records.&nbsp;Only&nbsp;difference&nbsp;between&nbsp;this&nbsp;and&nbsp;tableToJson&nbsp;is&nbsp;if&nbsp;<br>
+len(ret)&nbsp;==&nbsp;0,&nbsp;still&nbsp;return&nbsp;the&nbsp;entire&nbsp;array,&nbsp;instead&nbsp;of&nbsp;ret[0].<br>
+&nbsp;<br>
+:param&nbsp;records:&nbsp;iterable&nbsp;of&nbsp;an&nbsp;iterable&nbsp;contaienr,&nbsp;storing&nbsp;an&nbsp;iterable<br>
+of&nbsp;a&nbsp;record,&nbsp;each&nbsp;record&nbsp;contains&nbsp;data&nbsp;corresponding&nbsp;to&nbsp;colNames<br>
+:type&nbsp;records:&nbsp;iterable<br>
+&nbsp;<br>
+:param&nbsp;colNames:&nbsp;iterable,&nbsp;iterations&nbsp;gives&nbsp;column&nbsp;names<br>
+:type&nbsp;colNames:&nbsp;iterable<br>
+&nbsp;<br>
+:return:&nbsp;a&nbsp;list&nbsp;of&nbsp;dictionaries&nbsp;with&nbsp;fields&nbsp;being&nbsp;column&nbsp;names,&nbsp;and&nbsp;values<br>
+coming&nbsp;from&nbsp;records<br>
+:rtype:&nbsp;list[dict]</span></dd></dl>
+ <dl><dt><a name="-test1"><strong>test1</strong></a>()</dt><dd><span class="code">Quick&nbsp;endpoint&nbsp;test,&nbsp;check&nbsp;if&nbsp;endpoints&nbsp;are&nbsp;working.<br>
+&nbsp;<br>
+:return:&nbsp;predefined&nbsp;string<br>
+:rtype:&nbsp;string</span></dd></dl>
+ <dl><dt><a name="-test2"><strong>test2</strong></a>(str)</dt><dd><span class="code">Quick&nbsp;endpoint&nbsp;test,&nbsp;check&nbsp;if&nbsp;url&nbsp;parameters&nbsp;are&nbsp;working.&nbsp;<br>
+:param&nbsp;str:<br>
+:type&nbsp;str:&nbsp;str<br>
+&nbsp;<br>
+:return:&nbsp;String&nbsp;with&nbsp;the&nbsp;passed&nbsp;in&nbsp;str.<br>
+:rtype:&nbsp;str</span></dd></dl>
+</td></tr></table><p>
+<table class="section">
+<tr class="decor data-decor heading-text">
+<td class="section-title" colspan=3>&nbsp;<br><strong class="bigsection">Data</strong></td></tr>
+    
+<tr><td class="decor data-decor"><span class="code">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></td><td>&nbsp;</td>
+<td class="singlecolumn"><strong>RESULTS_PER_PAGE</strong> = 20<br>
+<strong>__annotations__</strong> = {'RESULTS_PER_PAGE': &lt;class 'int'&gt;}<br>
+<strong>db</strong> = &lt;SQLAlchemy&gt;<br>
+<strong>flaskApp</strong> = &lt;Flask '__init__'&gt;<br>
+<strong>request</strong> = &lt;LocalProxy unbound&gt;</td></tr></table>
+</body></html>

@@ -1,0 +1,3016 @@
+{
+    "Counties": [
+        {
+            "County": "Hunt",
+            "Type": {
+                "Violent": 53,
+                "Property": 59,
+                "Other": 70,
+                "Drug": 108,
+                "Total": 290
+            },
+            "Population": 101596,
+            "Population Rank": 41
+        },
+        {
+            "County": "Bexar",
+            "Type": {
+                "Violent": 1179,
+                "Property": 854,
+                "Other": 723,
+                "Drug": 1161,
+                "Total": 3917
+            },
+            "Population": 2014059,
+            "Population Rank": 4
+        },
+        {
+            "County": "Atascosa",
+            "Type": {
+                "Violent": 25,
+                "Property": 43,
+                "Other": 36,
+                "Drug": 65,
+                "Total": 169
+            },
+            "Population": 49403,
+            "Population Rank": 71
+        },
+        {
+            "County": "Travis",
+            "Type": {
+                "Violent": 613,
+                "Property": 339,
+                "Other": 332,
+                "Drug": 312,
+                "Total": 1596
+            },
+            "Population": 1289054,
+            "Population Rank": 5
+        },
+        {
+            "County": "Henderson",
+            "Type": {
+                "Violent": 38,
+                "Property": 56,
+                "Other": 63,
+                "Drug": 81,
+                "Total": 238
+            },
+            "Population": 82627,
+            "Population Rank": 49
+        },
+        {
+            "County": "Brazoria",
+            "Type": {
+                "Violent": 127,
+                "Property": 189,
+                "Other": 171,
+                "Drug": 225,
+                "Total": 712
+            },
+            "Population": 374600,
+            "Population Rank": 14
+        },
+        {
+            "County": "Harris",
+            "Type": {
+                "Violent": 2516,
+                "Property": 1578,
+                "Other": 1458,
+                "Drug": 1507,
+                "Total": 7059
+            },
+            "Population": 4726177,
+            "Population Rank": 1
+        },
+        {
+            "County": "Tarrant",
+            "Type": {
+                "Violent": 1124,
+                "Property": 1099,
+                "Other": 841,
+                "Drug": 1386,
+                "Total": 4450
+            },
+            "Population": 2113854,
+            "Population Rank": 3
+        },
+        {
+            "County": "Liberty",
+            "Type": {
+                "Violent": 55,
+                "Property": 54,
+                "Other": 52,
+                "Drug": 115,
+                "Total": 276
+            },
+            "Population": 93523,
+            "Population Rank": 43
+        },
+        {
+            "County": "Jefferson",
+            "Type": {
+                "Violent": 184,
+                "Property": 215,
+                "Other": 171,
+                "Drug": 251,
+                "Total": 821
+            },
+            "Population": 254942,
+            "Population Rank": 21
+        },
+        {
+            "County": "Grayson",
+            "Type": {
+                "Violent": 97,
+                "Property": 103,
+                "Other": 128,
+                "Drug": 222,
+                "Total": 550
+            },
+            "Population": 137008,
+            "Population Rank": 35
+        },
+        {
+            "County": "Austin",
+            "Type": {
+                "Violent": 9,
+                "Property": 12,
+                "Other": 19,
+                "Drug": 14,
+                "Total": 54
+            },
+            "Population": 30406,
+            "Population Rank": 94
+        },
+        {
+            "County": "Hidalgo",
+            "Type": {
+                "Violent": 492,
+                "Property": 307,
+                "Other": 416,
+                "Drug": 357,
+                "Total": 1572
+            },
+            "Population": 873167,
+            "Population Rank": 8
+        },
+        {
+            "County": "Angelina",
+            "Type": {
+                "Violent": 93,
+                "Property": 62,
+                "Other": 68,
+                "Drug": 127,
+                "Total": 350
+            },
+            "Population": 86608,
+            "Population Rank": 46
+        },
+        {
+            "County": "Smith",
+            "Type": {
+                "Violent": 175,
+                "Property": 209,
+                "Other": 201,
+                "Drug": 312,
+                "Total": 897
+            },
+            "Population": 234667,
+            "Population Rank": 23
+        },
+        {
+            "County": "Dimmit",
+            "Type": {
+                "Violent": 5,
+                "Property": 2,
+                "Other": 3,
+                "Drug": 4,
+                "Total": 14
+            },
+            "Population": 8672,
+            "Population Rank": 173
+        },
+        {
+            "County": "Dallas",
+            "Type": {
+                "Violent": 1689,
+                "Property": 1084,
+                "Other": 700,
+                "Drug": 1067,
+                "Total": 4540
+            },
+            "Population": 2604053,
+            "Population Rank": 2
+        },
+        {
+            "County": "Hood",
+            "Type": {
+                "Violent": 29,
+                "Property": 38,
+                "Other": 41,
+                "Drug": 135,
+                "Total": 243
+            },
+            "Population": 62459,
+            "Population Rank": 56
+        },
+        {
+            "County": "Eastland",
+            "Type": {
+                "Violent": 22,
+                "Property": 29,
+                "Other": 45,
+                "Drug": 59,
+                "Total": 155
+            },
+            "Population": 17812,
+            "Population Rank": 132
+        },
+        {
+            "County": "Moore",
+            "Type": {
+                "Violent": 9,
+                "Property": 6,
+                "Other": 12,
+                "Drug": 18,
+                "Total": 45
+            },
+            "Population": 21284,
+            "Population Rank": 112
+        },
+        {
+            "County": "Potter",
+            "Type": {
+                "Violent": 169,
+                "Property": 143,
+                "Other": 102,
+                "Drug": 196,
+                "Total": 610
+            },
+            "Population": 117905,
+            "Population Rank": 39
+        },
+        {
+            "County": "Midland",
+            "Type": {
+                "Violent": 148,
+                "Property": 97,
+                "Other": 169,
+                "Drug": 136,
+                "Total": 550
+            },
+            "Population": 169393,
+            "Population Rank": 28
+        },
+        {
+            "County": "Cameron",
+            "Type": {
+                "Violent": 217,
+                "Property": 156,
+                "Other": 111,
+                "Drug": 196,
+                "Total": 680
+            },
+            "Population": 421854,
+            "Population Rank": 13
+        },
+        {
+            "County": "Ector",
+            "Type": {
+                "Violent": 142,
+                "Property": 138,
+                "Other": 204,
+                "Drug": 245,
+                "Total": 729
+            },
+            "Population": 162300,
+            "Population Rank": 30
+        },
+        {
+            "County": "Houston",
+            "Type": {
+                "Violent": 16,
+                "Property": 25,
+                "Other": 21,
+                "Drug": 28,
+                "Total": 90
+            },
+            "Population": 22107,
+            "Population Rank": 107
+        },
+        {
+            "County": "McLennan",
+            "Type": {
+                "Violent": 200,
+                "Property": 210,
+                "Other": 211,
+                "Drug": 373,
+                "Total": 994
+            },
+            "Population": 261090,
+            "Population Rank": 20
+        },
+        {
+            "County": "Navarro",
+            "Type": {
+                "Violent": 49,
+                "Property": 40,
+                "Other": 48,
+                "Drug": 116,
+                "Total": 253
+            },
+            "Population": 52834,
+            "Population Rank": 62
+        },
+        {
+            "County": "McMullen",
+            "Type": {
+                "Violent": 2,
+                "Property": 1,
+                "Other": 1,
+                "Drug": 4,
+                "Total": 8
+            },
+            "Population": 670,
+            "Population Rank": 250
+        },
+        {
+            "County": "Nueces",
+            "Type": {
+                "Violent": 297,
+                "Property": 233,
+                "Other": 115,
+                "Drug": 216,
+                "Total": 861
+            },
+            "Population": 353245,
+            "Population Rank": 16
+        },
+        {
+            "County": "Jones",
+            "Type": {
+                "Violent": 6,
+                "Property": 11,
+                "Other": 19,
+                "Drug": 12,
+                "Total": 48
+            },
+            "Population": 19758,
+            "Population Rank": 123
+        },
+        {
+            "County": "Hale",
+            "Type": {
+                "Violent": 28,
+                "Property": 29,
+                "Other": 26,
+                "Drug": 31,
+                "Total": 114
+            },
+            "Population": 32525,
+            "Population Rank": 90
+        },
+        {
+            "County": "Bastrop",
+            "Type": {
+                "Violent": 40,
+                "Property": 15,
+                "Other": 23,
+                "Drug": 15,
+                "Total": 93
+            },
+            "Population": 98435,
+            "Population Rank": 42
+        },
+        {
+            "County": "Wichita",
+            "Type": {
+                "Violent": 85,
+                "Property": 110,
+                "Other": 119,
+                "Drug": 144,
+                "Total": 458
+            },
+            "Population": 129584,
+            "Population Rank": 36
+        },
+        {
+            "County": "Cass",
+            "Type": {
+                "Violent": 22,
+                "Property": 18,
+                "Other": 33,
+                "Drug": 19,
+                "Total": 92
+            },
+            "Population": 28637,
+            "Population Rank": 96
+        },
+        {
+            "County": "Howard",
+            "Type": {
+                "Violent": 9,
+                "Property": 22,
+                "Other": 29,
+                "Drug": 39,
+                "Total": 99
+            },
+            "Population": 34488,
+            "Population Rank": 88
+        },
+        {
+            "County": "Hardin",
+            "Type": {
+                "Violent": 22,
+                "Property": 29,
+                "Other": 38,
+                "Drug": 31,
+                "Total": 120
+            },
+            "Population": 56576,
+            "Population Rank": 61
+        },
+        {
+            "County": "Carson",
+            "Type": {
+                "Violent": 1,
+                "Property": 1,
+                "Other": 6,
+                "Drug": 20,
+                "Total": 28
+            },
+            "Population": 5801,
+            "Population Rank": 192
+        },
+        {
+            "County": "Fannin",
+            "Type": {
+                "Violent": 16,
+                "Property": 18,
+                "Other": 35,
+                "Drug": 52,
+                "Total": 121
+            },
+            "Population": 36052,
+            "Population Rank": 86
+        },
+        {
+            "County": "Hutchinson",
+            "Type": {
+                "Violent": 12,
+                "Property": 16,
+                "Other": 17,
+                "Drug": 13,
+                "Total": 58
+            },
+            "Population": 20595,
+            "Population Rank": 115
+        },
+        {
+            "County": "Runnels",
+            "Type": {
+                "Violent": 5,
+                "Property": 6,
+                "Other": 10,
+                "Drug": 15,
+                "Total": 36
+            },
+            "Population": 9858,
+            "Population Rank": 165
+        },
+        {
+            "County": "Trinity",
+            "Type": {
+                "Violent": 11,
+                "Property": 14,
+                "Other": 14,
+                "Drug": 19,
+                "Total": 58
+            },
+            "Population": 13735,
+            "Population Rank": 145
+        },
+        {
+            "County": "Williamson",
+            "Type": {
+                "Violent": 130,
+                "Property": 75,
+                "Other": 112,
+                "Drug": 164,
+                "Total": 481
+            },
+            "Population": 617396,
+            "Population Rank": 12
+        },
+        {
+            "County": "Tyler",
+            "Type": {
+                "Violent": 9,
+                "Property": 7,
+                "Other": 17,
+                "Drug": 9,
+                "Total": 42
+            },
+            "Population": 19962,
+            "Population Rank": 121
+        },
+        {
+            "County": "Upshur",
+            "Type": {
+                "Violent": 20,
+                "Property": 36,
+                "Other": 33,
+                "Drug": 43,
+                "Total": 132
+            },
+            "Population": 41261,
+            "Population Rank": 80
+        },
+        {
+            "County": "Denton",
+            "Type": {
+                "Violent": 192,
+                "Property": 117,
+                "Other": 189,
+                "Drug": 186,
+                "Total": 684
+            },
+            "Population": 914870,
+            "Population Rank": 7
+        },
+        {
+            "County": "Hill",
+            "Type": {
+                "Violent": 35,
+                "Property": 55,
+                "Other": 59,
+                "Drug": 80,
+                "Total": 229
+            },
+            "Population": 36138,
+            "Population Rank": 85
+        },
+        {
+            "County": "Brazos",
+            "Type": {
+                "Violent": 106,
+                "Property": 122,
+                "Other": 119,
+                "Drug": 183,
+                "Total": 530
+            },
+            "Population": 234548,
+            "Population Rank": 24
+        },
+        {
+            "County": "Cooke",
+            "Type": {
+                "Violent": 22,
+                "Property": 24,
+                "Other": 36,
+                "Drug": 86,
+                "Total": 168
+            },
+            "Population": 41860,
+            "Population Rank": 78
+        },
+        {
+            "County": "Collin",
+            "Type": {
+                "Violent": 224,
+                "Property": 197,
+                "Other": 156,
+                "Drug": 266,
+                "Total": 843
+            },
+            "Population": 1079153,
+            "Population Rank": 6
+        },
+        {
+            "County": "Comal",
+            "Type": {
+                "Violent": 57,
+                "Property": 59,
+                "Other": 86,
+                "Drug": 108,
+                "Total": 310
+            },
+            "Population": 165201,
+            "Population Rank": 29
+        },
+        {
+            "County": "Nolan",
+            "Type": {
+                "Violent": 11,
+                "Property": 11,
+                "Other": 18,
+                "Drug": 13,
+                "Total": 53
+            },
+            "Population": 14657,
+            "Population Rank": 141
+        },
+        {
+            "County": "El Paso",
+            "Type": {
+                "Violent": 380,
+                "Property": 199,
+                "Other": 216,
+                "Drug": 326,
+                "Total": 1121
+            },
+            "Population": 863832,
+            "Population Rank": 9
+        },
+        {
+            "County": "Caldwell",
+            "Type": {
+                "Violent": 28,
+                "Property": 14,
+                "Other": 16,
+                "Drug": 23,
+                "Total": 81
+            },
+            "Population": 46141,
+            "Population Rank": 74
+        },
+        {
+            "County": "Lamar",
+            "Type": {
+                "Violent": 53,
+                "Property": 100,
+                "Other": 61,
+                "Drug": 123,
+                "Total": 337
+            },
+            "Population": 50149,
+            "Population Rank": 69
+        },
+        {
+            "County": "Galveston",
+            "Type": {
+                "Violent": 162,
+                "Property": 136,
+                "Other": 178,
+                "Drug": 239,
+                "Total": 715
+            },
+            "Population": 350801,
+            "Population Rank": 17
+        },
+        {
+            "County": "Rains",
+            "Type": {
+                "Violent": 5,
+                "Property": 4,
+                "Other": 4,
+                "Drug": 12,
+                "Total": 25
+            },
+            "Population": 12257,
+            "Population Rank": 153
+        },
+        {
+            "County": "Wilbarger",
+            "Type": {
+                "Violent": 18,
+                "Property": 15,
+                "Other": 17,
+                "Drug": 36,
+                "Total": 86
+            },
+            "Population": 12795,
+            "Population Rank": 149
+        },
+        {
+            "County": "Kaufman",
+            "Type": {
+                "Violent": 49,
+                "Property": 75,
+                "Other": 67,
+                "Drug": 108,
+                "Total": 299
+            },
+            "Population": 149773,
+            "Population Rank": 32
+        },
+        {
+            "County": "Lubbock",
+            "Type": {
+                "Violent": 158,
+                "Property": 229,
+                "Other": 120,
+                "Drug": 184,
+                "Total": 691
+            },
+            "Population": 311509,
+            "Population Rank": 18
+        },
+        {
+            "County": "Parker",
+            "Type": {
+                "Violent": 56,
+                "Property": 79,
+                "Other": 106,
+                "Drug": 168,
+                "Total": 409
+            },
+            "Population": 151188,
+            "Population Rank": 31
+        },
+        {
+            "County": "Victoria",
+            "Type": {
+                "Violent": 70,
+                "Property": 55,
+                "Other": 87,
+                "Drug": 99,
+                "Total": 311
+            },
+            "Population": 91209,
+            "Population Rank": 45
+        },
+        {
+            "County": "Wood",
+            "Type": {
+                "Violent": 25,
+                "Property": 21,
+                "Other": 21,
+                "Drug": 49,
+                "Total": 116
+            },
+            "Population": 45341,
+            "Population Rank": 76
+        },
+        {
+            "County": "Anderson",
+            "Type": {
+                "Violent": 32,
+                "Property": 26,
+                "Other": 69,
+                "Drug": 63,
+                "Total": 190
+            },
+            "Population": 58077,
+            "Population Rank": 58
+        },
+        {
+            "County": "Hays",
+            "Type": {
+                "Violent": 67,
+                "Property": 81,
+                "Other": 73,
+                "Drug": 83,
+                "Total": 304
+            },
+            "Population": 245351,
+            "Population Rank": 22
+        },
+        {
+            "County": "Comanche",
+            "Type": {
+                "Violent": 13,
+                "Property": 12,
+                "Other": 13,
+                "Drug": 20,
+                "Total": 58
+            },
+            "Population": 13651,
+            "Population Rank": 146
+        },
+        {
+            "County": "Nacogdoches",
+            "Type": {
+                "Violent": 33,
+                "Property": 59,
+                "Other": 64,
+                "Drug": 56,
+                "Total": 212
+            },
+            "Population": 64768,
+            "Population Rank": 55
+        },
+        {
+            "County": "San Patricio",
+            "Type": {
+                "Violent": 31,
+                "Property": 47,
+                "Other": 40,
+                "Drug": 58,
+                "Total": 176
+            },
+            "Population": 68942,
+            "Population Rank": 53
+        },
+        {
+            "County": "Johnson",
+            "Type": {
+                "Violent": 100,
+                "Property": 153,
+                "Other": 147,
+                "Drug": 288,
+                "Total": 688
+            },
+            "Population": 182690,
+            "Population Rank": 26
+        },
+        {
+            "County": "Tom Green",
+            "Type": {
+                "Violent": 98,
+                "Property": 105,
+                "Other": 116,
+                "Drug": 209,
+                "Total": 528
+            },
+            "Population": 119276,
+            "Population Rank": 38
+        },
+        {
+            "County": "Walker",
+            "Type": {
+                "Violent": 27,
+                "Property": 27,
+                "Other": 36,
+                "Drug": 23,
+                "Total": 113
+            },
+            "Population": 77182,
+            "Population Rank": 50
+        },
+        {
+            "County": "Rockwall",
+            "Type": {
+                "Violent": 34,
+                "Property": 70,
+                "Other": 77,
+                "Drug": 124,
+                "Total": 305
+            },
+            "Population": 110631,
+            "Population Rank": 40
+        },
+        {
+            "County": "Aransas",
+            "Type": {
+                "Violent": 8,
+                "Property": 6,
+                "Other": 13,
+                "Drug": 43,
+                "Total": 70
+            },
+            "Population": 24048,
+            "Population Rank": 104
+        },
+        {
+            "County": "Kleberg",
+            "Type": {
+                "Violent": 25,
+                "Property": 23,
+                "Other": 26,
+                "Drug": 32,
+                "Total": 106
+            },
+            "Population": 30860,
+            "Population Rank": 93
+        },
+        {
+            "County": "Fort Bend",
+            "Type": {
+                "Violent": 143,
+                "Property": 82,
+                "Other": 83,
+                "Drug": 93,
+                "Total": 401
+            },
+            "Population": 832607,
+            "Population Rank": 10
+        },
+        {
+            "County": "Ellis",
+            "Type": {
+                "Violent": 68,
+                "Property": 104,
+                "Other": 97,
+                "Drug": 206,
+                "Total": 475
+            },
+            "Population": 195509,
+            "Population Rank": 25
+        },
+        {
+            "County": "Erath",
+            "Type": {
+                "Violent": 9,
+                "Property": 26,
+                "Other": 21,
+                "Drug": 49,
+                "Total": 105
+            },
+            "Population": 42788,
+            "Population Rank": 77
+        },
+        {
+            "County": "Coleman",
+            "Type": {
+                "Violent": 5,
+                "Property": 13,
+                "Other": 11,
+                "Drug": 13,
+                "Total": 42
+            },
+            "Population": 7808,
+            "Population Rank": 178
+        },
+        {
+            "County": "Scurry",
+            "Type": {
+                "Violent": 5,
+                "Property": 11,
+                "Other": 13,
+                "Drug": 16,
+                "Total": 45
+            },
+            "Population": 16883,
+            "Population Rank": 136
+        },
+        {
+            "County": "Waller",
+            "Type": {
+                "Violent": 18,
+                "Property": 10,
+                "Other": 26,
+                "Drug": 29,
+                "Total": 83
+            },
+            "Population": 57463,
+            "Population Rank": 60
+        },
+        {
+            "County": "Taylor",
+            "Type": {
+                "Violent": 126,
+                "Property": 195,
+                "Other": 115,
+                "Drug": 293,
+                "Total": 729
+            },
+            "Population": 143029,
+            "Population Rank": 33
+        },
+        {
+            "County": "Dawson",
+            "Type": {
+                "Violent": 15,
+                "Property": 4,
+                "Other": 20,
+                "Drug": 18,
+                "Total": 57
+            },
+            "Population": 12342,
+            "Population Rank": 151
+        },
+        {
+            "County": "Madison",
+            "Type": {
+                "Violent": 5,
+                "Property": 6,
+                "Other": 14,
+                "Drug": 25,
+                "Total": 50
+            },
+            "Population": 13556,
+            "Population Rank": 147
+        },
+        {
+            "County": "Wharton",
+            "Type": {
+                "Violent": 19,
+                "Property": 19,
+                "Other": 15,
+                "Drug": 18,
+                "Total": 71
+            },
+            "Population": 41614,
+            "Population Rank": 79
+        },
+        {
+            "County": "Montgomery",
+            "Type": {
+                "Violent": 237,
+                "Property": 262,
+                "Other": 355,
+                "Drug": 396,
+                "Total": 1250
+            },
+            "Population": 629989,
+            "Population Rank": 11
+        },
+        {
+            "County": "Hamilton",
+            "Type": {
+                "Violent": 4,
+                "Property": 4,
+                "Other": 9,
+                "Drug": 12,
+                "Total": 29
+            },
+            "Population": 8244,
+            "Population Rank": 176
+        },
+        {
+            "County": "Schleicher",
+            "Type": {
+                "Violent": 4,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 6
+            },
+            "Population": 2474,
+            "Population Rank": 229
+        },
+        {
+            "County": "Edwards",
+            "Type": {
+                "Violent": 3,
+                "Property": 0,
+                "Other": 2,
+                "Drug": 1,
+                "Total": 6
+            },
+            "Population": 1380,
+            "Population Rank": 241
+        },
+        {
+            "County": "Montague",
+            "Type": {
+                "Violent": 10,
+                "Property": 9,
+                "Other": 7,
+                "Drug": 22,
+                "Total": 48
+            },
+            "Population": 20197,
+            "Population Rank": 119
+        },
+        {
+            "County": "Webb",
+            "Type": {
+                "Violent": 65,
+                "Property": 41,
+                "Other": 31,
+                "Drug": 63,
+                "Total": 200
+            },
+            "Population": 267282,
+            "Population Rank": 19
+        },
+        {
+            "County": "Freestone",
+            "Type": {
+                "Violent": 16,
+                "Property": 8,
+                "Other": 8,
+                "Drug": 15,
+                "Total": 47
+            },
+            "Population": 19599,
+            "Population Rank": 125
+        },
+        {
+            "County": "Rusk",
+            "Type": {
+                "Violent": 15,
+                "Property": 21,
+                "Other": 36,
+                "Drug": 27,
+                "Total": 99
+            },
+            "Population": 52755,
+            "Population Rank": 64
+        },
+        {
+            "County": "Bosque",
+            "Type": {
+                "Violent": 13,
+                "Property": 15,
+                "Other": 10,
+                "Drug": 24,
+                "Total": 62
+            },
+            "Population": 18404,
+            "Population Rank": 127
+        },
+        {
+            "County": "Washington",
+            "Type": {
+                "Violent": 21,
+                "Property": 22,
+                "Other": 26,
+                "Drug": 25,
+                "Total": 94
+            },
+            "Population": 35807,
+            "Population Rank": 87
+        },
+        {
+            "County": "Brown",
+            "Type": {
+                "Violent": 59,
+                "Property": 43,
+                "Other": 61,
+                "Drug": 113,
+                "Total": 276
+            },
+            "Population": 38159,
+            "Population Rank": 82
+        },
+        {
+            "County": "Bell",
+            "Type": {
+                "Violent": 163,
+                "Property": 130,
+                "Other": 121,
+                "Drug": 248,
+                "Total": 662
+            },
+            "Population": 372821,
+            "Population Rank": 15
+        },
+        {
+            "County": "Haskell",
+            "Type": {
+                "Violent": 4,
+                "Property": 8,
+                "Other": 11,
+                "Drug": 9,
+                "Total": 32
+            },
+            "Population": 5408,
+            "Population Rank": 196
+        },
+        {
+            "County": "Harrison",
+            "Type": {
+                "Violent": 36,
+                "Property": 53,
+                "Other": 55,
+                "Drug": 54,
+                "Total": 198
+            },
+            "Population": 69098,
+            "Population Rank": 52
+        },
+        {
+            "County": "Palo Pinto",
+            "Type": {
+                "Violent": 27,
+                "Property": 38,
+                "Other": 32,
+                "Drug": 77,
+                "Total": 174
+            },
+            "Population": 28569,
+            "Population Rank": 97
+        },
+        {
+            "County": "Falls",
+            "Type": {
+                "Violent": 10,
+                "Property": 15,
+                "Other": 17,
+                "Drug": 23,
+                "Total": 65
+            },
+            "Population": 17013,
+            "Population Rank": 134
+        },
+        {
+            "County": "Gregg",
+            "Type": {
+                "Violent": 110,
+                "Property": 131,
+                "Other": 118,
+                "Drug": 182,
+                "Total": 541
+            },
+            "Population": 124245,
+            "Population Rank": 37
+        },
+        {
+            "County": "Shelby",
+            "Type": {
+                "Violent": 9,
+                "Property": 9,
+                "Other": 17,
+                "Drug": 19,
+                "Total": 54
+            },
+            "Population": 24157,
+            "Population Rank": 103
+        },
+        {
+            "County": "Lavaca",
+            "Type": {
+                "Violent": 9,
+                "Property": 12,
+                "Other": 15,
+                "Drug": 8,
+                "Total": 44
+            },
+            "Population": 20379,
+            "Population Rank": 117
+        },
+        {
+            "County": "Matagorda",
+            "Type": {
+                "Violent": 37,
+                "Property": 33,
+                "Other": 30,
+                "Drug": 32,
+                "Total": 132
+            },
+            "Population": 36251,
+            "Population Rank": 84
+        },
+        {
+            "County": "Polk",
+            "Type": {
+                "Violent": 32,
+                "Property": 42,
+                "Other": 56,
+                "Drug": 93,
+                "Total": 223
+            },
+            "Population": 50536,
+            "Population Rank": 67
+        },
+        {
+            "County": "Randall",
+            "Type": {
+                "Violent": 70,
+                "Property": 69,
+                "Other": 63,
+                "Drug": 88,
+                "Total": 290
+            },
+            "Population": 141489,
+            "Population Rank": 34
+        },
+        {
+            "County": "Grimes",
+            "Type": {
+                "Violent": 14,
+                "Property": 25,
+                "Other": 21,
+                "Drug": 17,
+                "Total": 77
+            },
+            "Population": 29442,
+            "Population Rank": 95
+        },
+        {
+            "County": "Gonzales",
+            "Type": {
+                "Violent": 16,
+                "Property": 17,
+                "Other": 34,
+                "Drug": 40,
+                "Total": 107
+            },
+            "Population": 19736,
+            "Population Rank": 124
+        },
+        {
+            "County": "San Jacinto",
+            "Type": {
+                "Violent": 17,
+                "Property": 16,
+                "Other": 17,
+                "Drug": 35,
+                "Total": 85
+            },
+            "Population": 27666,
+            "Population Rank": 98
+        },
+        {
+            "County": "Terry",
+            "Type": {
+                "Violent": 16,
+                "Property": 7,
+                "Other": 22,
+                "Drug": 27,
+                "Total": 72
+            },
+            "Population": 11816,
+            "Population Rank": 155
+        },
+        {
+            "County": "Guadalupe",
+            "Type": {
+                "Violent": 54,
+                "Property": 60,
+                "Other": 43,
+                "Drug": 96,
+                "Total": 253
+            },
+            "Population": 173828,
+            "Population Rank": 27
+        },
+        {
+            "County": "Bowie",
+            "Type": {
+                "Violent": 48,
+                "Property": 132,
+                "Other": 95,
+                "Drug": 199,
+                "Total": 474
+            },
+            "Population": 92747,
+            "Population Rank": 44
+        },
+        {
+            "County": "Hopkins",
+            "Type": {
+                "Violent": 26,
+                "Property": 37,
+                "Other": 40,
+                "Drug": 86,
+                "Total": 189
+            },
+            "Population": 37008,
+            "Population Rank": 83
+        },
+        {
+            "County": "Kendall",
+            "Type": {
+                "Violent": 11,
+                "Property": 11,
+                "Other": 25,
+                "Drug": 31,
+                "Total": 78
+            },
+            "Population": 45376,
+            "Population Rank": 75
+        },
+        {
+            "County": "Andrews",
+            "Type": {
+                "Violent": 8,
+                "Property": 8,
+                "Other": 10,
+                "Drug": 28,
+                "Total": 54
+            },
+            "Population": 18362,
+            "Population Rank": 128
+        },
+        {
+            "County": "Burleson",
+            "Type": {
+                "Violent": 23,
+                "Property": 20,
+                "Other": 27,
+                "Drug": 24,
+                "Total": 94
+            },
+            "Population": 17958,
+            "Population Rank": 130
+        },
+        {
+            "County": "Reagan",
+            "Type": {
+                "Violent": 2,
+                "Property": 1,
+                "Other": 7,
+                "Drug": 2,
+                "Total": 12
+            },
+            "Population": 3308,
+            "Population Rank": 216
+        },
+        {
+            "County": "Crane",
+            "Type": {
+                "Violent": 6,
+                "Property": 1,
+                "Other": 2,
+                "Drug": 1,
+                "Total": 10
+            },
+            "Population": 4636,
+            "Population Rank": 205
+        },
+        {
+            "County": "Jasper",
+            "Type": {
+                "Violent": 13,
+                "Property": 29,
+                "Other": 27,
+                "Drug": 33,
+                "Total": 102
+            },
+            "Population": 33032,
+            "Population Rank": 89
+        },
+        {
+            "County": "Gillespie",
+            "Type": {
+                "Violent": 10,
+                "Property": 8,
+                "Other": 15,
+                "Drug": 38,
+                "Total": 71
+            },
+            "Population": 26953,
+            "Population Rank": 99
+        },
+        {
+            "County": "Coryell",
+            "Type": {
+                "Violent": 44,
+                "Property": 47,
+                "Other": 39,
+                "Drug": 69,
+                "Total": 199
+            },
+            "Population": 82927,
+            "Population Rank": 48
+        },
+        {
+            "County": "Starr",
+            "Type": {
+                "Violent": 14,
+                "Property": 8,
+                "Other": 13,
+                "Drug": 38,
+                "Total": 73
+            },
+            "Population": 65716,
+            "Population Rank": 54
+        },
+        {
+            "County": "Orange",
+            "Type": {
+                "Violent": 41,
+                "Property": 89,
+                "Other": 57,
+                "Drug": 140,
+                "Total": 327
+            },
+            "Population": 84761,
+            "Population Rank": 47
+        },
+        {
+            "County": "Marion",
+            "Type": {
+                "Violent": 6,
+                "Property": 7,
+                "Other": 5,
+                "Drug": 7,
+                "Total": 25
+            },
+            "Population": 9668,
+            "Population Rank": 168
+        },
+        {
+            "County": "Dewitt",
+            "Type": {
+                "Violent": 18,
+                "Property": 19,
+                "Other": 13,
+                "Drug": 23,
+                "Total": 73
+            },
+            "Population": 19826,
+            "Population Rank": 122
+        },
+        {
+            "County": "Stephens",
+            "Type": {
+                "Violent": 9,
+                "Property": 9,
+                "Other": 7,
+                "Drug": 10,
+                "Total": 35
+            },
+            "Population": 9260,
+            "Population Rank": 171
+        },
+        {
+            "County": "Wilson",
+            "Type": {
+                "Violent": 13,
+                "Property": 18,
+                "Other": 22,
+                "Drug": 32,
+                "Total": 85
+            },
+            "Population": 50381,
+            "Population Rank": 68
+        },
+        {
+            "County": "Young",
+            "Type": {
+                "Violent": 13,
+                "Property": 11,
+                "Other": 14,
+                "Drug": 28,
+                "Total": 66
+            },
+            "Population": 17903,
+            "Population Rank": 131
+        },
+        {
+            "County": "Cherokee",
+            "Type": {
+                "Violent": 27,
+                "Property": 36,
+                "Other": 38,
+                "Drug": 44,
+                "Total": 145
+            },
+            "Population": 50824,
+            "Population Rank": 66
+        },
+        {
+            "County": "Donley",
+            "Type": {
+                "Violent": 6,
+                "Property": 4,
+                "Other": 1,
+                "Drug": 6,
+                "Total": 17
+            },
+            "Population": 3298,
+            "Population Rank": 218
+        },
+        {
+            "County": "Robertson",
+            "Type": {
+                "Violent": 9,
+                "Property": 15,
+                "Other": 9,
+                "Drug": 12,
+                "Total": 45
+            },
+            "Population": 16912,
+            "Population Rank": 135
+        },
+        {
+            "County": "Concho",
+            "Type": {
+                "Violent": 2,
+                "Property": 3,
+                "Other": 0,
+                "Drug": 3,
+                "Total": 8
+            },
+            "Population": 3235,
+            "Population Rank": 220
+        },
+        {
+            "County": "Live Oak",
+            "Type": {
+                "Violent": 4,
+                "Property": 7,
+                "Other": 11,
+                "Drug": 17,
+                "Total": 39
+            },
+            "Population": 11374,
+            "Population Rank": 158
+        },
+        {
+            "County": "Uvalde",
+            "Type": {
+                "Violent": 14,
+                "Property": 14,
+                "Other": 14,
+                "Drug": 19,
+                "Total": 61
+            },
+            "Population": 24833,
+            "Population Rank": 101
+        },
+        {
+            "County": "Camp",
+            "Type": {
+                "Violent": 5,
+                "Property": 7,
+                "Other": 4,
+                "Drug": 8,
+                "Total": 24
+            },
+            "Population": 12543,
+            "Population Rank": 150
+        },
+        {
+            "County": "Wise",
+            "Type": {
+                "Violent": 28,
+                "Property": 18,
+                "Other": 41,
+                "Drug": 56,
+                "Total": 143
+            },
+            "Population": 70062,
+            "Population Rank": 51
+        },
+        {
+            "County": "Childress",
+            "Type": {
+                "Violent": 18,
+                "Property": 7,
+                "Other": 4,
+                "Drug": 19,
+                "Total": 48
+            },
+            "Population": 6781,
+            "Population Rank": 189
+        },
+        {
+            "County": "Burnet",
+            "Type": {
+                "Violent": 23,
+                "Property": 21,
+                "Other": 30,
+                "Drug": 38,
+                "Total": 112
+            },
+            "Population": 49684,
+            "Population Rank": 70
+        },
+        {
+            "County": "Bandera",
+            "Type": {
+                "Violent": 6,
+                "Property": 7,
+                "Other": 14,
+                "Drug": 13,
+                "Total": 40
+            },
+            "Population": 21182,
+            "Population Rank": 114
+        },
+        {
+            "County": "Winkler",
+            "Type": {
+                "Violent": 4,
+                "Property": 10,
+                "Other": 9,
+                "Drug": 4,
+                "Total": 27
+            },
+            "Population": 7582,
+            "Population Rank": 181
+        },
+        {
+            "County": "Val Verde",
+            "Type": {
+                "Violent": 24,
+                "Property": 22,
+                "Other": 28,
+                "Drug": 17,
+                "Total": 91
+            },
+            "Population": 47693,
+            "Population Rank": 72
+        },
+        {
+            "County": "Pecos",
+            "Type": {
+                "Violent": 6,
+                "Property": 1,
+                "Other": 8,
+                "Drug": 6,
+                "Total": 21
+            },
+            "Population": 15114,
+            "Population Rank": 138
+        },
+        {
+            "County": "Medina",
+            "Type": {
+                "Violent": 18,
+                "Property": 12,
+                "Other": 15,
+                "Drug": 36,
+                "Total": 81
+            },
+            "Population": 51432,
+            "Population Rank": 65
+        },
+        {
+            "County": "Chambers",
+            "Type": {
+                "Violent": 20,
+                "Property": 28,
+                "Other": 32,
+                "Drug": 36,
+                "Total": 116
+            },
+            "Population": 47037,
+            "Population Rank": 73
+        },
+        {
+            "County": "Gray",
+            "Type": {
+                "Violent": 14,
+                "Property": 35,
+                "Other": 21,
+                "Drug": 44,
+                "Total": 114
+            },
+            "Population": 21272,
+            "Population Rank": 113
+        },
+        {
+            "County": "Bailey",
+            "Type": {
+                "Violent": 6,
+                "Property": 3,
+                "Other": 5,
+                "Drug": 11,
+                "Total": 25
+            },
+            "Population": 6902,
+            "Population Rank": 188
+        },
+        {
+            "County": "Milam",
+            "Type": {
+                "Violent": 32,
+                "Property": 24,
+                "Other": 27,
+                "Drug": 33,
+                "Total": 116
+            },
+            "Population": 25080,
+            "Population Rank": 100
+        },
+        {
+            "County": "Lee",
+            "Type": {
+                "Violent": 21,
+                "Property": 12,
+                "Other": 12,
+                "Drug": 10,
+                "Total": 55
+            },
+            "Population": 17543,
+            "Population Rank": 133
+        },
+        {
+            "County": "Kerr",
+            "Type": {
+                "Violent": 39,
+                "Property": 39,
+                "Other": 68,
+                "Drug": 110,
+                "Total": 256
+            },
+            "Population": 52810,
+            "Population Rank": 63
+        },
+        {
+            "County": "Lampasas",
+            "Type": {
+                "Violent": 5,
+                "Property": 12,
+                "Other": 17,
+                "Drug": 35,
+                "Total": 69
+            },
+            "Population": 21829,
+            "Population Rank": 108
+        },
+        {
+            "County": "Colorado",
+            "Type": {
+                "Violent": 13,
+                "Property": 20,
+                "Other": 25,
+                "Drug": 30,
+                "Total": 88
+            },
+            "Population": 20582,
+            "Population Rank": 116
+        },
+        {
+            "County": "Llano",
+            "Type": {
+                "Violent": 11,
+                "Property": 6,
+                "Other": 10,
+                "Drug": 17,
+                "Total": 44
+            },
+            "Population": 21637,
+            "Population Rank": 109
+        },
+        {
+            "County": "Frio",
+            "Type": {
+                "Violent": 5,
+                "Property": 8,
+                "Other": 6,
+                "Drug": 30,
+                "Total": 49
+            },
+            "Population": 18151,
+            "Population Rank": 129
+        },
+        {
+            "County": "Red River",
+            "Type": {
+                "Violent": 10,
+                "Property": 13,
+                "Other": 15,
+                "Drug": 14,
+                "Total": 52
+            },
+            "Population": 11627,
+            "Population Rank": 156
+        },
+        {
+            "County": "Limestone",
+            "Type": {
+                "Violent": 21,
+                "Property": 29,
+                "Other": 35,
+                "Drug": 27,
+                "Total": 112
+            },
+            "Population": 22222,
+            "Population Rank": 106
+        },
+        {
+            "County": "Blanco",
+            "Type": {
+                "Violent": 3,
+                "Property": 0,
+                "Other": 12,
+                "Drug": 13,
+                "Total": 28
+            },
+            "Population": 11608,
+            "Population Rank": 157
+        },
+        {
+            "County": "Reeves",
+            "Type": {
+                "Violent": 4,
+                "Property": 9,
+                "Other": 10,
+                "Drug": 20,
+                "Total": 43
+            },
+            "Population": 14022,
+            "Population Rank": 142
+        },
+        {
+            "County": "Knox",
+            "Type": {
+                "Violent": 2,
+                "Property": 5,
+                "Other": 3,
+                "Drug": 2,
+                "Total": 12
+            },
+            "Population": 3333,
+            "Population Rank": 214
+        },
+        {
+            "County": "Deaf Smith",
+            "Type": {
+                "Violent": 18,
+                "Property": 34,
+                "Other": 24,
+                "Drug": 26,
+                "Total": 102
+            },
+            "Population": 18585,
+            "Population Rank": 126
+        },
+        {
+            "County": "San Augustine",
+            "Type": {
+                "Violent": 5,
+                "Property": 5,
+                "Other": 4,
+                "Drug": 2,
+                "Total": 16
+            },
+            "Population": 7920,
+            "Population Rank": 177
+        },
+        {
+            "County": "Newton",
+            "Type": {
+                "Violent": 6,
+                "Property": 10,
+                "Other": 7,
+                "Drug": 8,
+                "Total": 31
+            },
+            "Population": 12333,
+            "Population Rank": 152
+        },
+        {
+            "County": "Sterling",
+            "Type": {
+                "Violent": 0,
+                "Property": 0,
+                "Other": 3,
+                "Drug": 1,
+                "Total": 4
+            },
+            "Population": 1392,
+            "Population Rank": 240
+        },
+        {
+            "County": "Hockley",
+            "Type": {
+                "Violent": 10,
+                "Property": 18,
+                "Other": 16,
+                "Drug": 22,
+                "Total": 66
+            },
+            "Population": 21495,
+            "Population Rank": 111
+        },
+        {
+            "County": "Mills",
+            "Type": {
+                "Violent": 4,
+                "Property": 4,
+                "Other": 8,
+                "Drug": 11,
+                "Total": 27
+            },
+            "Population": 4501,
+            "Population Rank": 206
+        },
+        {
+            "County": "Garza",
+            "Type": {
+                "Violent": 5,
+                "Property": 4,
+                "Other": 4,
+                "Drug": 9,
+                "Total": 22
+            },
+            "Population": 5735,
+            "Population Rank": 194
+        },
+        {
+            "County": "Van Zandt",
+            "Type": {
+                "Violent": 37,
+                "Property": 40,
+                "Other": 47,
+                "Drug": 45,
+                "Total": 169
+            },
+            "Population": 60053,
+            "Population Rank": 57
+        },
+        {
+            "County": "Morris",
+            "Type": {
+                "Violent": 10,
+                "Property": 10,
+                "Other": 9,
+                "Drug": 10,
+                "Total": 39
+            },
+            "Population": 11993,
+            "Population Rank": 154
+        },
+        {
+            "County": "Karnes",
+            "Type": {
+                "Violent": 9,
+                "Property": 5,
+                "Other": 11,
+                "Drug": 8,
+                "Total": 33
+            },
+            "Population": 14805,
+            "Population Rank": 140
+        },
+        {
+            "County": "Lamb",
+            "Type": {
+                "Violent": 13,
+                "Property": 11,
+                "Other": 10,
+                "Drug": 11,
+                "Total": 45
+            },
+            "Population": 13024,
+            "Population Rank": 148
+        },
+        {
+            "County": "Titus",
+            "Type": {
+                "Violent": 15,
+                "Property": 11,
+                "Other": 15,
+                "Drug": 33,
+                "Total": 74
+            },
+            "Population": 31301,
+            "Population Rank": 91
+        },
+        {
+            "County": "Mitchell",
+            "Type": {
+                "Violent": 5,
+                "Property": 6,
+                "Other": 8,
+                "Drug": 3,
+                "Total": 22
+            },
+            "Population": 8947,
+            "Population Rank": 172
+        },
+        {
+            "County": "Briscoe",
+            "Type": {
+                "Violent": 0,
+                "Property": 0,
+                "Other": 3,
+                "Drug": 1,
+                "Total": 4
+            },
+            "Population": 1290,
+            "Population Rank": 243
+        },
+        {
+            "County": "Fayette",
+            "Type": {
+                "Violent": 11,
+                "Property": 15,
+                "Other": 14,
+                "Drug": 26,
+                "Total": 66
+            },
+            "Population": 24564,
+            "Population Rank": 102
+        },
+        {
+            "County": "Calhoun",
+            "Type": {
+                "Violent": 12,
+                "Property": 10,
+                "Other": 9,
+                "Drug": 24,
+                "Total": 55
+            },
+            "Population": 20127,
+            "Population Rank": 120
+        },
+        {
+            "County": "Leon",
+            "Type": {
+                "Violent": 7,
+                "Property": 9,
+                "Other": 9,
+                "Drug": 13,
+                "Total": 38
+            },
+            "Population": 15928,
+            "Population Rank": 137
+        },
+        {
+            "County": "Zavala",
+            "Type": {
+                "Violent": 8,
+                "Property": 3,
+                "Other": 4,
+                "Drug": 3,
+                "Total": 18
+            },
+            "Population": 9700,
+            "Population Rank": 167
+        },
+        {
+            "County": "Jim Wells",
+            "Type": {
+                "Violent": 18,
+                "Property": 16,
+                "Other": 8,
+                "Drug": 9,
+                "Total": 51
+            },
+            "Population": 39060,
+            "Population Rank": 81
+        },
+        {
+            "County": "Willacy",
+            "Type": {
+                "Violent": 9,
+                "Property": 5,
+                "Other": 6,
+                "Drug": 6,
+                "Total": 26
+            },
+            "Population": 20308,
+            "Population Rank": 118
+        },
+        {
+            "County": "Callahan",
+            "Type": {
+                "Violent": 6,
+                "Property": 3,
+                "Other": 3,
+                "Drug": 8,
+                "Total": 20
+            },
+            "Population": 13869,
+            "Population Rank": 144
+        },
+        {
+            "County": "Bee",
+            "Type": {
+                "Violent": 16,
+                "Property": 5,
+                "Other": 29,
+                "Drug": 26,
+                "Total": 76
+            },
+            "Population": 30977,
+            "Population Rank": 92
+        },
+        {
+            "County": "Jack",
+            "Type": {
+                "Violent": 4,
+                "Property": 1,
+                "Other": 9,
+                "Drug": 3,
+                "Total": 17
+            },
+            "Population": 8588,
+            "Population Rank": 175
+        },
+        {
+            "County": "Refugio",
+            "Type": {
+                "Violent": 5,
+                "Property": 5,
+                "Other": 8,
+                "Drug": 5,
+                "Total": 23
+            },
+            "Population": 6718,
+            "Population Rank": 190
+        },
+        {
+            "County": "Hall",
+            "Type": {
+                "Violent": 1,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 5,
+                "Total": 10
+            },
+            "Population": 2847,
+            "Population Rank": 226
+        },
+        {
+            "County": "Floyd",
+            "Type": {
+                "Violent": 2,
+                "Property": 3,
+                "Other": 3,
+                "Drug": 3,
+                "Total": 11
+            },
+            "Population": 5386,
+            "Population Rank": 197
+        },
+        {
+            "County": "Somervell",
+            "Type": {
+                "Violent": 3,
+                "Property": 10,
+                "Other": 9,
+                "Drug": 10,
+                "Total": 32
+            },
+            "Population": 9337,
+            "Population Rank": 170
+        },
+        {
+            "County": "Baylor",
+            "Type": {
+                "Violent": 1,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 2,
+                "Total": 7
+            },
+            "Population": 3475,
+            "Population Rank": 211
+        },
+        {
+            "County": "Sabine",
+            "Type": {
+                "Violent": 10,
+                "Property": 5,
+                "Other": 10,
+                "Drug": 6,
+                "Total": 31
+            },
+            "Population": 9980,
+            "Population Rank": 162
+        },
+        {
+            "County": "Yoakum",
+            "Type": {
+                "Violent": 2,
+                "Property": 2,
+                "Other": 4,
+                "Drug": 4,
+                "Total": 12
+            },
+            "Population": 7630,
+            "Population Rank": 180
+        },
+        {
+            "County": "Gaines",
+            "Type": {
+                "Violent": 5,
+                "Property": 10,
+                "Other": 9,
+                "Drug": 19,
+                "Total": 43
+            },
+            "Population": 21523,
+            "Population Rank": 110
+        },
+        {
+            "County": "Lasalle",
+            "Type": {
+                "Violent": 4,
+                "Property": 1,
+                "Other": 5,
+                "Drug": 8,
+                "Total": 18
+            },
+            "Population": 6965,
+            "Population Rank": 187
+        },
+        {
+            "County": "Hansford",
+            "Type": {
+                "Violent": 2,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 2,
+                "Total": 8
+            },
+            "Population": 5270,
+            "Population Rank": 200
+        },
+        {
+            "County": "McCulloch",
+            "Type": {
+                "Violent": 9,
+                "Property": 8,
+                "Other": 11,
+                "Drug": 24,
+                "Total": 52
+            },
+            "Population": 7638,
+            "Population Rank": 179
+        },
+        {
+            "County": "Crockett",
+            "Type": {
+                "Violent": 0,
+                "Property": 1,
+                "Other": 3,
+                "Drug": 2,
+                "Total": 6
+            },
+            "Population": 2949,
+            "Population Rank": 224
+        },
+        {
+            "County": "Ward",
+            "Type": {
+                "Violent": 3,
+                "Property": 8,
+                "Other": 16,
+                "Drug": 18,
+                "Total": 45
+            },
+            "Population": 11347,
+            "Population Rank": 159
+        },
+        {
+            "County": "San Saba",
+            "Type": {
+                "Violent": 4,
+                "Property": 3,
+                "Other": 6,
+                "Drug": 5,
+                "Total": 18
+            },
+            "Population": 5779,
+            "Population Rank": 193
+        },
+        {
+            "County": "Hemphill",
+            "Type": {
+                "Violent": 1,
+                "Property": 1,
+                "Other": 4,
+                "Drug": 4,
+                "Total": 10
+            },
+            "Population": 3371,
+            "Population Rank": 212
+        },
+        {
+            "County": "Kimble",
+            "Type": {
+                "Violent": 3,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 12,
+                "Total": 19
+            },
+            "Population": 4316,
+            "Population Rank": 207
+        },
+        {
+            "County": "Hardeman",
+            "Type": {
+                "Violent": 3,
+                "Property": 7,
+                "Other": 4,
+                "Drug": 4,
+                "Total": 18
+            },
+            "Population": 3541,
+            "Population Rank": 210
+        },
+        {
+            "County": "Panola",
+            "Type": {
+                "Violent": 8,
+                "Property": 21,
+                "Other": 10,
+                "Drug": 20,
+                "Total": 59
+            },
+            "Population": 22540,
+            "Population Rank": 105
+        },
+        {
+            "County": "Jackson",
+            "Type": {
+                "Violent": 12,
+                "Property": 19,
+                "Other": 17,
+                "Drug": 17,
+                "Total": 65
+            },
+            "Population": 15010,
+            "Population Rank": 139
+        },
+        {
+            "County": "Upton",
+            "Type": {
+                "Violent": 3,
+                "Property": 0,
+                "Other": 4,
+                "Drug": 3,
+                "Total": 10
+            },
+            "Population": 3284,
+            "Population Rank": 219
+        },
+        {
+            "County": "Sutton",
+            "Type": {
+                "Violent": 1,
+                "Property": 1,
+                "Other": 5,
+                "Drug": 0,
+                "Total": 7
+            },
+            "Population": 3345,
+            "Population Rank": 213
+        },
+        {
+            "County": "Crosby",
+            "Type": {
+                "Violent": 1,
+                "Property": 4,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 7
+            },
+            "Population": 5157,
+            "Population Rank": 202
+        },
+        {
+            "County": "Franklin",
+            "Type": {
+                "Violent": 10,
+                "Property": 4,
+                "Other": 12,
+                "Drug": 12,
+                "Total": 38
+            },
+            "Population": 10445,
+            "Population Rank": 160
+        },
+        {
+            "County": "Maverick",
+            "Type": {
+                "Violent": 11,
+                "Property": 12,
+                "Other": 15,
+                "Drug": 9,
+                "Total": 47
+            },
+            "Population": 57806,
+            "Population Rank": 59
+        },
+        {
+            "County": "Cochran",
+            "Type": {
+                "Violent": 2,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 2,
+                "Total": 8
+            },
+            "Population": 2529,
+            "Population Rank": 228
+        },
+        {
+            "County": "Dickens",
+            "Type": {
+                "Violent": 2,
+                "Property": 2,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 6
+            },
+            "Population": 1570,
+            "Population Rank": 237
+        },
+        {
+            "County": "Duval",
+            "Type": {
+                "Violent": 4,
+                "Property": 8,
+                "Other": 2,
+                "Drug": 5,
+                "Total": 19
+            },
+            "Population": 9960,
+            "Population Rank": 163
+        },
+        {
+            "County": "Brewster",
+            "Type": {
+                "Violent": 0,
+                "Property": 0,
+                "Other": 2,
+                "Drug": 1,
+                "Total": 3
+            },
+            "Population": 9454,
+            "Population Rank": 169
+        },
+        {
+            "County": "Brooks",
+            "Type": {
+                "Violent": 8,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 2,
+                "Total": 14
+            },
+            "Population": 7059,
+            "Population Rank": 185
+        },
+        {
+            "County": "Archer",
+            "Type": {
+                "Violent": 1,
+                "Property": 2,
+                "Other": 4,
+                "Drug": 1,
+                "Total": 8
+            },
+            "Population": 8649,
+            "Population Rank": 174
+        },
+        {
+            "County": "Mason",
+            "Type": {
+                "Violent": 1,
+                "Property": 1,
+                "Other": 2,
+                "Drug": 2,
+                "Total": 6
+            },
+            "Population": 3959,
+            "Population Rank": 208
+        },
+        {
+            "County": "Goliad",
+            "Type": {
+                "Violent": 5,
+                "Property": 3,
+                "Other": 3,
+                "Drug": 0,
+                "Total": 11
+            },
+            "Population": 7092,
+            "Population Rank": 184
+        },
+        {
+            "County": "Menard",
+            "Type": {
+                "Violent": 1,
+                "Property": 1,
+                "Other": 4,
+                "Drug": 7,
+                "Total": 13
+            },
+            "Population": 1964,
+            "Population Rank": 234
+        },
+        {
+            "County": "Collingsworth",
+            "Type": {
+                "Violent": 5,
+                "Property": 4,
+                "Other": 0,
+                "Drug": 1,
+                "Total": 10
+            },
+            "Population": 2865,
+            "Population Rank": 225
+        },
+        {
+            "County": "Stonewall",
+            "Type": {
+                "Violent": 2,
+                "Property": 1,
+                "Other": 1,
+                "Drug": 0,
+                "Total": 4
+            },
+            "Population": 1331,
+            "Population Rank": 242
+        },
+        {
+            "County": "Castro",
+            "Type": {
+                "Violent": 1,
+                "Property": 4,
+                "Other": 3,
+                "Drug": 8,
+                "Total": 16
+            },
+            "Population": 7381,
+            "Population Rank": 182
+        },
+        {
+            "County": "Terrell",
+            "Type": {
+                "Violent": 0,
+                "Property": 2,
+                "Other": 1,
+                "Drug": 0,
+                "Total": 3
+            },
+            "Population": 862,
+            "Population Rank": 247
+        },
+        {
+            "County": "Parmer",
+            "Type": {
+                "Violent": 1,
+                "Property": 1,
+                "Other": 6,
+                "Drug": 5,
+                "Total": 13
+            },
+            "Population": 9809,
+            "Population Rank": 166
+        },
+        {
+            "County": "Martin",
+            "Type": {
+                "Violent": 2,
+                "Property": 2,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 6
+            },
+            "Population": 5228,
+            "Population Rank": 201
+        },
+        {
+            "County": "Clay",
+            "Type": {
+                "Violent": 1,
+                "Property": 1,
+                "Other": 5,
+                "Drug": 5,
+                "Total": 12
+            },
+            "Population": 10290,
+            "Population Rank": 161
+        },
+        {
+            "County": "Delta",
+            "Type": {
+                "Violent": 1,
+                "Property": 3,
+                "Other": 7,
+                "Drug": 2,
+                "Total": 13
+            },
+            "Population": 5278,
+            "Population Rank": 199
+        },
+        {
+            "County": "Kenedy",
+            "Type": {
+                "Violent": 0,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 4,
+                "Total": 5
+            },
+            "Population": 116,
+            "Population Rank": 253
+        },
+        {
+            "County": "Ochiltree",
+            "Type": {
+                "Violent": 4,
+                "Property": 3,
+                "Other": 3,
+                "Drug": 13,
+                "Total": 23
+            },
+            "Population": 9924,
+            "Population Rank": 164
+        },
+        {
+            "County": "Culberson",
+            "Type": {
+                "Violent": 3,
+                "Property": 1,
+                "Other": 0,
+                "Drug": 1,
+                "Total": 5
+            },
+            "Population": 2181,
+            "Population Rank": 231
+        },
+        {
+            "County": "Cottle",
+            "Type": {
+                "Violent": 0,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 2
+            },
+            "Population": 1647,
+            "Population Rank": 236
+        },
+        {
+            "County": "Coke",
+            "Type": {
+                "Violent": 0,
+                "Property": 2,
+                "Other": 0,
+                "Drug": 1,
+                "Total": 3
+            },
+            "Population": 3305,
+            "Population Rank": 217
+        },
+        {
+            "County": "Throckmorton",
+            "Type": {
+                "Violent": 3,
+                "Property": 4,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 9
+            },
+            "Population": 1439,
+            "Population Rank": 239
+        },
+        {
+            "County": "Sherman",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 0,
+                "Drug": 2,
+                "Total": 3
+            },
+            "Population": 2414,
+            "Population Rank": 230
+        },
+        {
+            "County": "Irion",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 0,
+                "Total": 2
+            },
+            "Population": 1561,
+            "Population Rank": 238
+        },
+        {
+            "County": "Wheeler",
+            "Type": {
+                "Violent": 5,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 16,
+                "Total": 25
+            },
+            "Population": 4980,
+            "Population Rank": 203
+        },
+        {
+            "County": "Lynn",
+            "Type": {
+                "Violent": 3,
+                "Property": 2,
+                "Other": 5,
+                "Drug": 1,
+                "Total": 11
+            },
+            "Population": 5619,
+            "Population Rank": 195
+        },
+        {
+            "County": "Dallam",
+            "Type": {
+                "Violent": 2,
+                "Property": 4,
+                "Other": 3,
+                "Drug": 4,
+                "Total": 13
+            },
+            "Population": 7165,
+            "Population Rank": 183
+        },
+        {
+            "County": "Hudspeth",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 5,
+                "Drug": 3,
+                "Total": 9
+            },
+            "Population": 3329,
+            "Population Rank": 215
+        },
+        {
+            "County": "Real",
+            "Type": {
+                "Violent": 1,
+                "Property": 2,
+                "Other": 5,
+                "Drug": 0,
+                "Total": 8
+            },
+            "Population": 2830,
+            "Population Rank": 227
+        },
+        {
+            "County": "Fisher",
+            "Type": {
+                "Violent": 1,
+                "Property": 2,
+                "Other": 2,
+                "Drug": 1,
+                "Total": 6
+            },
+            "Population": 3680,
+            "Population Rank": 209
+        },
+        {
+            "County": "Jim Hogg",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 2,
+                "Total": 4
+            },
+            "Population": 4830,
+            "Population Rank": 204
+        },
+        {
+            "County": "Kinney",
+            "Type": {
+                "Violent": 3,
+                "Property": 0,
+                "Other": 2,
+                "Drug": 0,
+                "Total": 5
+            },
+            "Population": 3157,
+            "Population Rank": 221
+        },
+        {
+            "County": "Glasscock",
+            "Type": {
+                "Violent": 0,
+                "Property": 0,
+                "Other": 0,
+                "Drug": 1,
+                "Total": 1
+            },
+            "Population": 1068,
+            "Population Rank": 246
+        },
+        {
+            "County": "Shackelford",
+            "Type": {
+                "Violent": 2,
+                "Property": 1,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 5
+            },
+            "Population": 3134,
+            "Population Rank": 222
+        },
+        {
+            "County": "Swisher",
+            "Type": {
+                "Violent": 5,
+                "Property": 4,
+                "Other": 2,
+                "Drug": 1,
+                "Total": 12
+            },
+            "Population": 6989,
+            "Population Rank": 186
+        },
+        {
+            "County": "Roberts",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 3
+            },
+            "Population": 764,
+            "Population Rank": 248
+        },
+        {
+            "County": "Foard",
+            "Type": {
+                "Violent": 2,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 0,
+                "Total": 3
+            },
+            "Population": 1075,
+            "Population Rank": 245
+        },
+        {
+            "County": "Oldham",
+            "Type": {
+                "Violent": 2,
+                "Property": 0,
+                "Other": 4,
+                "Drug": 4,
+                "Total": 10
+            },
+            "Population": 2171,
+            "Population Rank": 232
+        },
+        {
+            "County": "Zapata",
+            "Type": {
+                "Violent": 1,
+                "Property": 2,
+                "Other": 3,
+                "Drug": 2,
+                "Total": 8
+            },
+            "Population": 13896,
+            "Population Rank": 143
+        },
+        {
+            "County": "Kent",
+            "Type": {
+                "Violent": 0,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 1,
+                "Total": 2
+            },
+            "Population": 635,
+            "Population Rank": 251
+        },
+        {
+            "County": "Jeff Davis",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 1,
+                "Drug": 0,
+                "Total": 2
+            },
+            "Population": 1992,
+            "Population Rank": 233
+        },
+        {
+            "County": "Hartley",
+            "Type": {
+                "Violent": 0,
+                "Property": 1,
+                "Other": 4,
+                "Drug": 2,
+                "Total": 7
+            },
+            "Population": 5369,
+            "Population Rank": 198
+        },
+        {
+            "County": "Armstrong",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 0,
+                "Drug": 0,
+                "Total": 1
+            },
+            "Population": 1912,
+            "Population Rank": 235
+        },
+        {
+            "County": "Motley",
+            "Type": {
+                "Violent": 0,
+                "Property": 2,
+                "Other": 0,
+                "Drug": 0,
+                "Total": 2
+            },
+            "Population": 1223,
+            "Population Rank": 244
+        },
+        {
+            "County": "Lipscomb",
+            "Type": {
+                "Violent": 1,
+                "Property": 2,
+                "Other": 1,
+                "Drug": 0,
+                "Total": 4
+            },
+            "Population": 3038,
+            "Population Rank": 223
+        },
+        {
+            "County": "Presidio",
+            "Type": {
+                "Violent": 1,
+                "Property": 0,
+                "Other": 0,
+                "Drug": 0,
+                "Total": 1
+            },
+            "Population": 6168,
+            "Population Rank": 191
+        }
+    ]
+}

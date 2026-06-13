@@ -1,0 +1,2 @@
+Acceptance Tests are for the GUI using Selenium
+Unit Tests are for the Javascript code using Jest

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.3",
+    "d3": "^7.9.0",
+    "use-places-autocomplete": "^4.0.1"
+  }
+}

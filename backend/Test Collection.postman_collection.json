@@ -1,0 +1,393 @@
+{
+	"info": {
+		"_postman_id": "9e94e4a9-1bda-4d73-8b6b-61e17405ec30",
+		"name": "Test Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32870576",
+		"_collection_link": "https://dark-crater-830916.postman.co/workspace/Team-Workspace~c060f8d0-1e9b-4923-8d45-038f4f8feb79/collection/32870576-9e94e4a9-1bda-4d73-8b6b-61e17405ec30?action=share&source=collection_link&creator=32870576"
+	},
+	"item": [
+		{
+			"name": "Get all Reentries",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Testing Get All Reentries, Ok response\", function() {\r",
+							"    pm.response.to.be.ok;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing All Reentries have json\", function() {\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing All Reentries have correct number of instances\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    // 155 from the database\r",
+							"    pm.expect(jsonData.length).is.to.equal(155);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://cs373-backend.secondchancesupport.me/api/v1/reentries",
+					"protocol": "http",
+					"host": [
+						"cs373-backend",
+						"secondchancesupport",
+						"me"
+					],
+					"path": [
+						"api",
+						"v1",
+						"reentries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Rehabs",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Testing Get All Rehabs, Ok response\", function() {\r",
+							"    pm.response.to.be.ok;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing All Rehabs have json\", function() {\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing All Rehabs have correct number of instances\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    // 155 from the database\r",
+							"    pm.expect(jsonData.length).is.to.equal(155);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://cs373-backend.secondchancesupport.me/api/v1/reentries",
+					"protocol": "http",
+					"host": [
+						"cs373-backend",
+						"secondchancesupport",
+						"me"
+					],
+					"path": [
+						"api",
+						"v1",
+						"reentries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all county prisoner stats",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Testing Get All Counties, Ok response\", function() {\r",
+							"    pm.response.to.be.ok;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing All counties have json\", function() {\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing All Counties have correct number of instances\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    // 254 from the database\r",
+							"    pm.expect(jsonData.length).is.to.equal(254);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://cs373-backend.secondchancesupport.me/api/v1/counties",
+					"protocol": "http",
+					"host": [
+						"cs373-backend",
+						"secondchancesupport",
+						"me"
+					],
+					"path": [
+						"api",
+						"v1",
+						"counties"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a county",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Testing Get A County, Ok response\", function() {\r",
+							"    pm.response.to.be.ok;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get a County\", function() {\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get A County have correct fields\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    pm.expect(jsonData).to.have.property(\"name\");\r",
+							"    pm.expect(jsonData).to.have.property(\"img_src\");\r",
+							"    pm.expect(jsonData).to.have.property(\"population\");\r",
+							"    pm.expect(jsonData).to.have.property(\"population\");\r",
+							"    pm.expect(jsonData).to.have.property(\"population_rank\");\r",
+							"    pm.expect(jsonData).to.have.property(\"latitude\");\r",
+							"    pm.expect(jsonData).to.have.property(\"longitude\");\r",
+							"    pm.expect(jsonData).to.have.property(\"typeviolent\");\r",
+							"    pm.expect(jsonData).to.have.property(\"typeproperty\");\r",
+							"    pm.expect(jsonData).to.have.property(\"typedrug\");\r",
+							"    pm.expect(jsonData).to.have.property(\"typeother\");\r",
+							"    pm.expect(jsonData).to.have.property(\"typetotal\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get County Id of 1\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    const fieldToExpected = {\r",
+							"        \"name\": \"Hunt\", \r",
+							"        \"population\": 101596,\r",
+							"        \"typeviolent\": 53,\r",
+							"        \"typedrug\": 108, \r",
+							"        \"typeother\": 70, \r",
+							"        \"typeproperty\": 59, \r",
+							"        \"typetotal\": 290, \r",
+							"        \"population_rank\": 41\r",
+							"    };\r",
+							"\r",
+							"    for(const field in fieldToExpected) {\r",
+							"        pm.expect(jsonData[field]).to.equals(fieldToExpected[field]);\r",
+							"    }\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://cs373-backend.secondchancesupport.me/api/v1/county/1",
+					"protocol": "http",
+					"host": [
+						"cs373-backend",
+						"secondchancesupport",
+						"me"
+					],
+					"path": [
+						"api",
+						"v1",
+						"county",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a reentry",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Testing Get A County, Ok response\", function() {\r",
+							"    pm.response.to.be.ok;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get a County\", function() {\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get A County have correct fields\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    pm.expect(jsonData).to.have.property(\"name\");\r",
+							"    pm.expect(jsonData).to.have.property(\"b64_img\");\r",
+							"    pm.expect(jsonData).to.have.property(\"address1\");\r",
+							"    pm.expect(jsonData).to.have.property(\"address2\");\r",
+							"    pm.expect(jsonData).to.have.property(\"city\");\r",
+							"    pm.expect(jsonData).to.have.property(\"stateabbr\");\r",
+							"    pm.expect(jsonData).to.have.property(\"statename\");\r",
+							"    pm.expect(jsonData).to.have.property(\"zip\");\r",
+							"    pm.expect(jsonData).to.have.property(\"phone\");\r",
+							"    pm.expect(jsonData).to.have.property(\"distance\");\r",
+							"    pm.expect(jsonData).to.have.property(\"programtype\");\r",
+							"    pm.expect(jsonData).to.have.property(\"openhour\");\r",
+							"    pm.expect(jsonData).to.have.property(\"centerisopen\");\r",
+							"    pm.expect(jsonData).to.have.property(\"whyclosed\");\r",
+							"    pm.expect(jsonData).to.have.property(\"centerstatus\");\r",
+							"    pm.expect(jsonData).to.have.property(\"generalemail\");\r",
+							"    pm.expect(jsonData).to.have.property(\"latitude\");\r",
+							"    pm.expect(jsonData).to.have.property(\"longitude\");\r",
+							"    pm.expect(jsonData).to.have.property(\"websiteurl\");\r",
+							"    pm.expect(jsonData).to.have.property(\"fax\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get Reentry Id of 1\", function() {\r",
+							"   const jsonData = pm.response.json();\r",
+							"\r",
+							"    const fieldToExpected = {\r",
+							"        \"name\": \"Workforce Solutions - Zapata\", \r",
+							"        \"city\": \"Zapata\",\r",
+							"        \"phone\": \"956-765-1804\",\r",
+							"        \"fax\": \"956-765-1799\", \r",
+							"        \"address1\": \"605 U.S. Hwy 83 Ste. B\", \r",
+							"        \"programtype\": \"Comprehensive Center\", \r",
+							"        \"openhour\": \"M-F 8a-5p\", \r",
+							"        \"websiteurl\": \"https://southtexasworkforce.org/job-seekers/\"\r",
+							"    };\r",
+							"\r",
+							"    for(const field in fieldToExpected) {\r",
+							"        pm.expect(jsonData[field]).to.equals(fieldToExpected[field]);\r",
+							"    }\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://cs373-backend.secondchancesupport.me/api/v1/reentry/1",
+					"protocol": "http",
+					"host": [
+						"cs373-backend",
+						"secondchancesupport",
+						"me"
+					],
+					"path": [
+						"api",
+						"v1",
+						"reentry",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get a rehab",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Testing Get A Rehab, Ok response\", function() {\r",
+							"    pm.response.to.be.ok;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get a Rehab\", function() {\r",
+							"    pm.response.to.be.json;\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get A Rehab have correct fields\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    pm.expect(jsonData).to.have.property(\"name\");\r",
+							"    pm.expect(jsonData).to.have.property(\"b64_img\");\r",
+							"    pm.expect(jsonData).to.have.property(\"address\");\r",
+							"    for(let serviceNumber = 0; serviceNumber < 3; serviceNumber++) {\r",
+							"        pm.expect(jsonData).to.have.property(\"services\" + serviceNumber);\r",
+							"    }\r",
+							"    pm.expect(jsonData).to.have.property(\"latitude\");\r",
+							"    pm.expect(jsonData).to.have.property(\"longitude\");\r",
+							"    for(let paymentNumber = 0; paymentNumber < 9; paymentNumber++) {\r",
+							"        pm.expect(jsonData).to.have.property(\"payment\" + paymentNumber);\r",
+							"    }\r",
+							"    pm.expect(jsonData).to.have.property(\"type\");\r",
+							"    pm.expect(jsonData).to.have.property(\"phone\");\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Testing Get Rehab Id of 1\", function() {\r",
+							"    const jsonData = pm.response.json();\r",
+							"\r",
+							"    const fieldToExpected = {\r",
+							"        \"name\": \"West Texas Centers Runnels County\", \r",
+							"        \"website\": \"http://www.wtcmhmr.org\",\r",
+							"        \"address\": \"126 State Street, Winters, TX 79567\",\r",
+							"        \"services0\": \"Substance use treatment\",\r",
+							"        \"services1\": \"Mental health treatment\", \r",
+							"        \"services2\": \"Treatment for co-occurring substance use plus either serious mental health illness in adults/serious emotional disturbance in children\",\r",
+							"        \"payment0\": \"County or local government funds\", \r",
+							"        \"payment1\": \"Medicare\", \r",
+							"        \"payment2\": \"Medicaid\", \r",
+							"        \"payment3\": \"Federal military insurance (e.g., TRICARE)\", \r",
+							"        \"payment4\": \"Private health insurance\", \r",
+							"        \"payment5\": \"State corrections plus more\",\r",
+							"        \"type\": \"Mental Health\",\r",
+							"        \"phone\": \"325-754-5591\",\r",
+							"        \r",
+							"    };\r",
+							"\r",
+							"    for(const field in fieldToExpected) {\r",
+							"        pm.expect(jsonData[field]).to.equals(fieldToExpected[field]);\r",
+							"    }\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://cs373-backend.secondchancesupport.me/api/v1/rehab/1",
+					"protocol": "http",
+					"host": [
+						"cs373-backend",
+						"secondchancesupport",
+						"me"
+					],
+					"path": [
+						"api",
+						"v1",
+						"rehab",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

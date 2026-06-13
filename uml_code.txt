@@ -1,0 +1,69 @@
+@startuml
+class ReentryProgram {
++ name : varchar
++ address_1 : varchar
++ address_2 : varchar
++ city : varchar
++ state_abbr : varchar
++ state_name : varchar
++ zip : varchar
++ phone : varchar
++ distance : varchar
++ program_type : varchar
++ open_hour : varchar
++ center_is_open : varchar
++ why_closed : varchar
++ center_status : varchar
++ general_email : varchar
++ latitude : numeric 
++ longitude : numeric
++ website_url : varchar
++ fax : varchar
++ is_valid : int
++ service_message : varchar
++ b64_img : varchar
+}
+
+class County {
++ name : String
++ population : int
++ population_rank : int
++ type_violent : int
++ type_drug : int
++ type_property : int
++ type_other : int
++ type_total : int
++ b64_img : varchar
++ longitude : float
++ latitude : float
+}
+
+class RehabCenter{
++ name : varchar
++ website : varchar
++ address : varchar
++ services_0 : varchar
++ services_1 : varchar
++ services_2 : varchar
++ payment_0 : varchar
++ payment_1 : varchar
++ payment_2 : varchar
++ payment_3 : varchar
++ payment_4 : varchar
++ payment_5 : varchar
++ type : varchar
++ phone : varchar
++ b64_img : varchar 
++ services_3 : varchar
++ payment_6 : varchar
++ payment_7 : varchar
++ payment_8 : varchar
++ latitude : float
++ longitude : float
+}
+County "1" -right- "*" ReentryProgram : ""
+County "*" -right- "1" ReentryProgram : ""
+RehabCenter "*" -right- "*" ReentryProgram : "by proximity"
+RehabCenter "*" -left- "1" County : ""
+RehabCenter "1" -left- "*" County : ""
+@enduml
