@@ -12,7 +12,7 @@
 
 [Developer Website](https://www.unshakablejapan.me/)
 
-> Note: This project was originally developed and deployed via GitLab/Supabase for CS373 at UT Austin. It has since been migrated to GitHub, Vercel, and Render.
+> Note: This project was originally developed and deployed via GitLab/Supabase for CS373 at UT Austin. It has since been migrated to GitHub, Vercel, and Render. Gitlab Link: https://gitlab.com/dannyzheng1/cs373-group-03
 
 ## Phase Leaders
 
