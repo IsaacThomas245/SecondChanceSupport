@@ -1,17 +1,18 @@
 # cs373-group-03
 
-## Current Git SHA
-Git Sha: 5f837c0cf194b897b551a144084160a74536d58f
-
 ## Websites
 
-[Our Website](https://www.secondchancesupport.me/)
+[Our Website](https://second-chance-support.vercel.app/)
+
+[Backend API](https://secondchancesupport.onrender.com)
 
 [API Documentation](https://documenter.getpostman.com/view/18391024/2sA2r6WPgJ)
 
-[Pipeline](https://gitlab.com/dannyzheng1/cs373-group-03/-/pipelines)
+[Repository](https://github.com/IsaacThomas245/SecondChanceSupport)
 
 [Developer Website](https://www.unshakablejapan.me/)
+
+> Note: This project was originally developed and deployed via GitLab/Supabase for CS373 at UT Austin. It has since been migrated to GitHub, Vercel, and Render.
 
 ## Phase Leaders
 
